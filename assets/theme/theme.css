@@ -146,6 +146,133 @@ body {
 }
 
 
+.panel-green {
+  border-color: #5cb85c;
+  color: white;
+  background-color: #5cb85c;
+}
+.panel-green > a {
+  color: #5cb85c;
+}
+.panel-green > a:hover {
+  color: #3d8b3d;
+}
+.panel-red {
+  border-color: #d9534f;
+}
+.panel-red {
+  border-color: #d9534f;
+  color: white;
+  background-color: #d9534f;
+}
+.panel-red > a {
+  color: #d9534f;
+}
+.panel-red > a:hover {
+  color: #b52b27;
+}
+.panel-yellow {
+  border-color: #f0ad4e;
+}
+.panel-yellow {
+  border-color: #f0ad4e;
+  color: white;
+  background-color: #f0ad4e;
+}
+.panel-yellow > a {
+  color: #f0ad4e;
+}
+.panel-yellow > a:hover {
+  color: #df8a13;
+}
+
+.dash-widgets .panel-primary {
+    background: #337ab7;
+}
+
+.dash-widgets .panel {
+    height: 67px;
+    border-radius: 0;
+    overflow: hidden;
+    line-height: 1.2;
+    font-size: 13px;
+    -webkit-box-shadow: 0px 7px 5px -4px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 7px 5px -4px rgba(0,0,0,0.33);
+    box-shadow: 0px 7px 5px -4px rgba(0,0,0,0.33);
+}
+
+.dash-widgets .panel .col-xs-8 > div {
+    padding-top: 5px;
+}
+
+.dash-widgets  .panel-gray {
+    background: #d5d5d5;
+    color: #fff;
+}
+
+.dash-widgets  .panel-warning,
+.dash-widgets  .panel-warning .panel-heading {
+    color: #fff;
+    background: #f2d03b !important;
+    border-color: #f2d03b;
+}
+
+.dash-widgets  .panel-primary,
+.dash-widgets  .panel-primary .panel-heading  {
+    background: #3fbb65;
+    border-color: #3fbb65;
+}
+
+.dash-widgets .panel-green, 
+.dash-widgets .panel-green .panel-heading  {
+    background: #944ea6;
+    border-color: #944ea6;
+}
+
+.dash-widgets .panel-green .col-xs-8 > div {
+    padding-top: 0;
+}
+
+.dash-widgets {
+    padding-top: 10px;
+}
+
+.dash-widgets .panel-yellow, 
+.dash-widgets .panel-yellow .panel-heading  {
+    background: #1a93c0;
+    border-color: #1a93c0;
+}
+
+.dash-widgets .panel-yellow .col-xs-8 > div {
+    padding-top: 0;
+    margin-left: -5px;
+}
+
+.dash-widgets .panel-red, 
+.dash-widgets .panel-red .panel-heading  {
+    background: #f34e4a;
+    border-color: #f34e4a;
+} 
+
+.dash-widgets .panel-red .col-xs-4 img {
+    margin-top: 5px;
+}
+
+.dash-widgets .panel-gray .col-xs-4 img {
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
