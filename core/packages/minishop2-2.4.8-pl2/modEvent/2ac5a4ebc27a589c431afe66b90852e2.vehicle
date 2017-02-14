@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd25f13033d231b76da51b4ddd63ae458',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '2ac5a4ebc27a589c431afe66b90852e2',
+  'native_key' => 'msOnEmptyCart',
+  'object' => '{"name":"msOnEmptyCart","service":6,"groupname":"miniShop2"}',
+);

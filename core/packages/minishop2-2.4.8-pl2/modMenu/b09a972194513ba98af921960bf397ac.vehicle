@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2712003473efee96be2b22f654de3dd9',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'b09a972194513ba98af921960bf397ac',
+  'native_key' => 'minishop2',
+  'object' => '{"text":"minishop2","parent":"components","action":"mgr\\/orders","description":"ms2_menu_desc","icon":"<i class=\\"icon-shopping-cart icon icon-large\\"><\\/i>","menuindex":0,"params":"","handler":"","permissions":"","namespace":"minishop2"}',
+);

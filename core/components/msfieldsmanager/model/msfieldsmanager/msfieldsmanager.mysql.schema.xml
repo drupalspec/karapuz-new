@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="msfieldsmanager" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+	<object class="MsfmFields" table="msfm_fields" extends="xPDOSimpleObject">
+		<field key="name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="title" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="description" dbtype="mediumtext" phptype="string" null="true" />
+		<field key="dbtype" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="dbprecision" dbtype="varchar" precision="255" phptype="string" null="true" />
+		<field key="dbnull" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="0" />
+		<field key="dbdefault" dbtype="varchar" precision="255" phptype="string" null="true" />
+		<field key="xtype" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="extjs" dbtype="text" phptype="string" null="true" />
+		<field key="required" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="0" />
+		<field key="enable" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="1" />
+		<field key="rank" dbtype="tinyint" precision="1" phptype="integer" null="false" default="0" />
+	</object>
+	<object class="MsfmProcessors" table="msfm_processors" extends="xPDOSimpleObject">
+		<field key="name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="table_name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="processor" dbtype="text" phptype="string" null="false" />
+		<field key="display_field" dbtype="varchar" precision="255" phptype="string" null="true" />
+		<field key="value_field" dbtype="varchar" precision="255" phptype="string" null="true" />
+		<field key="sort_field" dbtype="varchar" precision="255" phptype="string" null="false" />
+	</object>
+</model>

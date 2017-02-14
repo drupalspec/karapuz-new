@@ -1,0 +1,30 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_MENU_UPDATE',
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => 'BUILD_ACTION_UPDATE',
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'msfieldsmanager',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '659938f427bea53bd158a120b0c98a70',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '9eed8b7382d25d5fd75da1d70338355f',
+  'native_key' => 'msfieldsmanager.cmenu.msfmfields',
+  'object' => '{"text":"msfieldsmanager.cmenu.msfmfields","parent":"components","action":"msfmfields","description":"msfieldsmanager.cmenu.msfmfields_desc","icon":"","menuindex":7,"params":"","handler":"","permissions":"","namespace":"msfieldsmanager"}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1d6291f67aaaf5c94d29346ac8328c25',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '18c53032d6ad7d180b74e0e073b02190',
+  'native_key' => 'ms2_date_format',
+  'object' => '{"key":"ms2_date_format","value":"%d.%m.%y <span class=\\"gray\\">%H:%M<\\/span>","xtype":"textfield","namespace":"minishop2","area":"ms2_order","editedon":"2017-01-10 05:31:19"}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'msfieldsmanager',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '874041144099c8b3830b2dc85cc09439',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '786bf7467e6fbda2ac8d642594fcc85b',
+  'native_key' => 'msfieldsmanager',
+  'object' => '{"name":"msfieldsmanager","path":"{core_path}components\\/msfieldsmanager\\/","assets_path":"{assets_path}components\\/msfieldsmanager\\/"}',
+);
