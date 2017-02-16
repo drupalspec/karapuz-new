@@ -1,4 +1,5 @@
 body {
+    background: #9DCA3E;
     background-image: url(img/bg-texture.jpg), url(img/bg.png);
     background-position: center top, center bottom;
     background-repeat: no-repeat, repeat-y;
@@ -262,16 +263,35 @@ body {
     margin-top: 3px;
 }
 
+.brand-slider .bx-wrapper .bx-viewport {
+    border: 0;
+    box-shadow: none;
+}
 
+.brand-slider .bx-wrapper .bx-controls-direction a.bx-prev {
+    left:-41px;
+}
 
+.brand-slider .bx-wrapper .bx-controls-direction a.bx-next {
+    right:-41px;
+}
 
+.brand-slider .panel-body {
+    height: 100px;
+    overflow: hidden;
+}
 
+footer {
+    padding: 20px 0;
+    border: 0;
+    margin-top: 0;
+}
 
-
-
-
-
-
+footer p {
+    color: #fff;
+    font-weight: 100;
+    margin: 0;
+}
 
 
 

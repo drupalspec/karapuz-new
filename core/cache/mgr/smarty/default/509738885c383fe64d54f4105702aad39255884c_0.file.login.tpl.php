@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2017-02-04 14:26:04
+<?php /* Smarty version 3.1.27, created on 2017-02-15 06:25:28
          compiled from "/mamp/karapuz-new/manager/templates/default/security/login.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:3279135715895c85c3aae79_36579378%%*/
+/*%%SmartyHeaderCode:182467189158a3d838aaf382_22341857%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '509738885c383fe64d54f4105702aad39255884c' => 
     array (
       0 => '/mamp/karapuz-new/manager/templates/default/security/login.tpl',
-      1 => 1483440292,
+      1 => 1487132512,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3279135715895c85c3aae79_36579378',
+  'nocache_hash' => '182467189158a3d838aaf382_22341857',
   'variables' => 
   array (
     '_config' => 0,
@@ -30,14 +30,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5895c85c5d2ef6_87263175',
+  'unifunc' => 'content_58a3d838d568f6_63142831',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5895c85c5d2ef6_87263175')) {
-function content_5895c85c5d2ef6_87263175 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_58a3d838d568f6_63142831')) {
+function content_58a3d838d568f6_63142831 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_replace')) require_once '/mamp/karapuz-new/core/model/smarty/plugins/modifier.replace.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '3279135715895c85c3aae79_36579378';
+$_smarty_tpl->properties['nocache_hash'] = '182467189158a3d838aaf382_22341857';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php if ($_smarty_tpl->tpl_vars['_config']->value['manager_direction'] == 'rtl') {?>dir="rtl"<?php }?> lang="<?php echo $_smarty_tpl->tpl_vars['_config']->value['manager_lang_attribute'];?>

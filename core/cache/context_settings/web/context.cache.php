@@ -42,7 +42,6 @@
     'index/detskie-igrushki/katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 10,
     'index/detskie-igrushki/avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 12,
     'index/detskie-igrushki/avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 13,
-    'index/detskie-igrushki/vedro-bolshoe-detskoe/' => 14,
     'index/detskie-igrushki/vedro-«maksi»-dlya-pesochniczyi,-detskoe-(5-litrov)-polese/' => 15,
     'index/detskie-mashinki/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 17,
     'index/detskie-mashinki/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 18,
@@ -50,147 +49,126 @@
     'index/detskie-mashinki/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 19,
     'index/detskie-mashinki/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 21,
     'index/detskie-mashinki/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 22,
-    'index/detskie-mashinki/kopiya-vedro-bolshoe-detskoe/' => 23,
     'index/geroi-multfilmov/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 26,
     'index/geroi-multfilmov/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 27,
     'index/geroi-multfilmov/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 29,
     'index/geroi-multfilmov/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 28,
     'index/geroi-multfilmov/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 30,
     'index/geroi-multfilmov/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 31,
-    'index/geroi-multfilmov/kopiya-vedro-bolshoe-detskoe/' => 32,
     'index/detskaya-kuxnya/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 35,
     'index/detskaya-kuxnya/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 36,
     'index/detskaya-kuxnya/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 38,
     'index/detskaya-kuxnya/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 37,
     'index/detskaya-kuxnya/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 39,
     'index/detskaya-kuxnya/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 40,
-    'index/detskaya-kuxnya/kopiya-vedro-bolshoe-detskoe/' => 41,
     'index/chichilav-sobachki/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 44,
     'index/chichilav-sobachki/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 45,
     'index/chichilav-sobachki/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 47,
     'index/chichilav-sobachki/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 46,
     'index/chichilav-sobachki/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 48,
     'index/chichilav-sobachki/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 49,
-    'index/chichilav-sobachki/kopiya-vedro-bolshoe-detskoe/' => 50,
     'index/interaktivnyie-igrushki/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 53,
     'index/interaktivnyie-igrushki/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 54,
     'index/interaktivnyie-igrushki/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 56,
     'index/interaktivnyie-igrushki/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 55,
     'index/interaktivnyie-igrushki/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 57,
     'index/interaktivnyie-igrushki/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 58,
-    'index/interaktivnyie-igrushki/kopiya-vedro-bolshoe-detskoe/' => 59,
     'index/konstruktoryi/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 62,
     'index/konstruktoryi/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 63,
     'index/konstruktoryi/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 64,
     'index/konstruktoryi/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 65,
     'index/konstruktoryi/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 66,
     'index/konstruktoryi/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 67,
-    'index/konstruktoryi/kopiya-vedro-bolshoe-detskoe/' => 68,
     'index/naboryi-dlya-detskogo-tvorchestva/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 71,
     'index/naboryi-dlya-detskogo-tvorchestva/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 72,
     'index/naboryi-dlya-detskogo-tvorchestva/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 73,
     'index/naboryi-dlya-detskogo-tvorchestva/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 74,
     'index/naboryi-dlya-detskogo-tvorchestva/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 75,
     'index/naboryi-dlya-detskogo-tvorchestva/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 76,
-    'index/naboryi-dlya-detskogo-tvorchestva/kopiya-vedro-bolshoe-detskoe/' => 77,
     'index/modeli-avtomobilej/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 80,
     'index/modeli-avtomobilej/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 81,
     'index/modeli-avtomobilej/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 83,
     'index/modeli-avtomobilej/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 82,
     'index/modeli-avtomobilej/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 84,
     'index/modeli-avtomobilej/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 85,
-    'index/modeli-avtomobilej/kopiya-vedro-bolshoe-detskoe/' => 86,
     'index/plastilin/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 89,
     'index/plastilin/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 90,
     'index/plastilin/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 92,
     'index/plastilin/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 91,
     'index/plastilin/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 93,
     'index/plastilin/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 94,
-    'index/plastilin/kopiya-vedro-bolshoe-detskoe/' => 95,
     'index/3d-ruchki/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 98,
     'index/3d-ruchki/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 99,
     'index/3d-ruchki/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 100,
     'index/3d-ruchki/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 101,
     'index/3d-ruchki/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 102,
     'index/3d-ruchki/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 103,
-    'index/3d-ruchki/kopiya-vedro-bolshoe-detskoe/' => 104,
     'index/detskie-kuklyi/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 107,
     'index/detskie-kuklyi/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 108,
     'index/detskie-kuklyi/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 110,
     'index/detskie-kuklyi/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 109,
     'index/detskie-kuklyi/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 111,
     'index/detskie-kuklyi/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 112,
-    'index/detskie-kuklyi/kopiya-vedro-bolshoe-detskoe/' => 113,
     'index/detskij-supermarket-igrushka/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 116,
     'index/detskij-supermarket-igrushka/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 117,
     'index/detskij-supermarket-igrushka/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 119,
     'index/detskij-supermarket-igrushka/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 118,
     'index/detskij-supermarket-igrushka/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 120,
     'index/detskij-supermarket-igrushka/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 121,
-    'index/detskij-supermarket-igrushka/kopiya-vedro-bolshoe-detskoe/' => 122,
     'index/igryi-dlya-kompanij/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 125,
     'index/igryi-dlya-kompanij/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 126,
     'index/igryi-dlya-kompanij/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 128,
     'index/igryi-dlya-kompanij/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 127,
     'index/igryi-dlya-kompanij/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 129,
     'index/igryi-dlya-kompanij/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 130,
-    'index/igryi-dlya-kompanij/kopiya-vedro-bolshoe-detskoe/' => 131,
     'index/kolyaski-dlya-kukol/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 134,
     'index/kolyaski-dlya-kukol/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 135,
     'index/kolyaski-dlya-kukol/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 137,
     'index/kolyaski-dlya-kukol/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 136,
     'index/kolyaski-dlya-kukol/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 138,
     'index/kolyaski-dlya-kukol/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 139,
-    'index/kolyaski-dlya-kukol/kopiya-vedro-bolshoe-detskoe/' => 140,
     'index/shpionskie-shtuchki/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 143,
     'index/shpionskie-shtuchki/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 144,
     'index/shpionskie-shtuchki/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 146,
     'index/shpionskie-shtuchki/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 145,
     'index/shpionskie-shtuchki/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 147,
     'index/shpionskie-shtuchki/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 148,
-    'index/shpionskie-shtuchki/kopiya-vedro-bolshoe-detskoe/' => 149,
     'index/igrushki-dlya-uborki/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 152,
     'index/igrushki-dlya-uborki/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 153,
     'index/igrushki-dlya-uborki/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 155,
     'index/igrushki-dlya-uborki/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 154,
     'index/igrushki-dlya-uborki/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 156,
     'index/igrushki-dlya-uborki/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 157,
-    'index/igrushki-dlya-uborki/kopiya-vedro-bolshoe-detskoe/' => 158,
     'index/igrovyie-ruli/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 161,
     'index/igrovyie-ruli/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 162,
     'index/igrovyie-ruli/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 163,
     'index/igrovyie-ruli/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 164,
     'index/igrovyie-ruli/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 165,
     'index/igrovyie-ruli/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 166,
-    'index/igrovyie-ruli/kopiya-vedro-bolshoe-detskoe/' => 167,
     'index/igrushki-maska/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 170,
     'index/igrushki-maska/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 171,
     'index/igrushki-maska/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 173,
     'index/igrushki-maska/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 172,
     'index/igrushki-maska/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 174,
     'index/igrushki-maska/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 175,
-    'index/igrushki-maska/kopiya-vedro-bolshoe-detskoe/' => 176,
     'index/3d-pazlyi/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 179,
     'index/3d-pazlyi/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 180,
     'index/3d-pazlyi/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 182,
     'index/3d-pazlyi/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 181,
     'index/3d-pazlyi/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 183,
     'index/3d-pazlyi/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 184,
-    'index/3d-pazlyi/kopiya-vedro-bolshoe-detskoe/' => 185,
     'index/kalejdoskopyi/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 188,
     'index/kalejdoskopyi/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 189,
     'index/kalejdoskopyi/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 191,
     'index/kalejdoskopyi/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 190,
     'index/kalejdoskopyi/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 192,
     'index/kalejdoskopyi/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 193,
-    'index/kalejdoskopyi/kopiya-vedro-bolshoe-detskoe/' => 194,
     'index/pazlyi-dlya-detej/kopiya-igrushechnyij-poezd-vagon-metro-(texnopark)/' => 197,
     'index/pazlyi-dlya-detej/kopiya-nabor-shampun-«fruktovoe-naslazhdenie»-dlya-detej-(intellectico)/' => 198,
     'index/pazlyi-dlya-detej/kopiya-lopata-№21,-alyuminievyij-cherenok-s-ruchkoj-(dlina-lopatyi-70-sm)/' => 200,
     'index/pazlyi-dlya-detej/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 199,
     'index/pazlyi-dlya-detej/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 201,
     'index/pazlyi-dlya-detej/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 202,
-    'index/pazlyi-dlya-detej/kopiya-vedro-bolshoe-detskoe/' => 203,
   ),
   'resourceMap' => 
   array (
@@ -240,8 +218,7 @@
       3 => 10,
       4 => 12,
       5 => 13,
-      6 => 14,
-      7 => 15,
+      6 => 15,
     ),
     16 => 
     array (
@@ -251,7 +228,6 @@
       3 => 19,
       4 => 21,
       5 => 22,
-      6 => 23,
     ),
     25 => 
     array (
@@ -261,7 +237,6 @@
       3 => 28,
       4 => 30,
       5 => 31,
-      6 => 32,
     ),
     34 => 
     array (
@@ -271,7 +246,6 @@
       3 => 37,
       4 => 39,
       5 => 40,
-      6 => 41,
     ),
     43 => 
     array (
@@ -281,7 +255,6 @@
       3 => 46,
       4 => 48,
       5 => 49,
-      6 => 50,
     ),
     52 => 
     array (
@@ -291,7 +264,6 @@
       3 => 55,
       4 => 57,
       5 => 58,
-      6 => 59,
     ),
     61 => 
     array (
@@ -301,7 +273,6 @@
       3 => 65,
       4 => 66,
       5 => 67,
-      6 => 68,
     ),
     70 => 
     array (
@@ -311,7 +282,6 @@
       3 => 74,
       4 => 75,
       5 => 76,
-      6 => 77,
     ),
     79 => 
     array (
@@ -321,7 +291,6 @@
       3 => 82,
       4 => 84,
       5 => 85,
-      6 => 86,
     ),
     88 => 
     array (
@@ -331,7 +300,6 @@
       3 => 91,
       4 => 93,
       5 => 94,
-      6 => 95,
     ),
     97 => 
     array (
@@ -341,7 +309,6 @@
       3 => 101,
       4 => 102,
       5 => 103,
-      6 => 104,
     ),
     106 => 
     array (
@@ -351,7 +318,6 @@
       3 => 109,
       4 => 111,
       5 => 112,
-      6 => 113,
     ),
     115 => 
     array (
@@ -361,7 +327,6 @@
       3 => 118,
       4 => 120,
       5 => 121,
-      6 => 122,
     ),
     124 => 
     array (
@@ -371,7 +336,6 @@
       3 => 127,
       4 => 129,
       5 => 130,
-      6 => 131,
     ),
     133 => 
     array (
@@ -381,7 +345,6 @@
       3 => 136,
       4 => 138,
       5 => 139,
-      6 => 140,
     ),
     142 => 
     array (
@@ -391,7 +354,6 @@
       3 => 145,
       4 => 147,
       5 => 148,
-      6 => 149,
     ),
     151 => 
     array (
@@ -401,7 +363,6 @@
       3 => 154,
       4 => 156,
       5 => 157,
-      6 => 158,
     ),
     160 => 
     array (
@@ -411,7 +372,6 @@
       3 => 164,
       4 => 165,
       5 => 166,
-      6 => 167,
     ),
     169 => 
     array (
@@ -421,7 +381,6 @@
       3 => 172,
       4 => 174,
       5 => 175,
-      6 => 176,
     ),
     178 => 
     array (
@@ -431,7 +390,6 @@
       3 => 181,
       4 => 183,
       5 => 184,
-      6 => 185,
     ),
     187 => 
     array (
@@ -441,7 +399,6 @@
       3 => 190,
       4 => 192,
       5 => 193,
-      6 => 194,
     ),
     196 => 
     array (
@@ -451,7 +408,6 @@
       3 => 199,
       4 => 201,
       5 => 202,
-      6 => 203,
     ),
   ),
   'webLinkMap' => 
@@ -475,6 +431,7 @@
     'OnDocFormPrerender' => 
     array (
       7 => '7',
+      11 => '11',
       3 => '3',
     ),
     'OnDocFormSave' => 
@@ -545,6 +502,22 @@
     array (
       3 => '3',
       7 => '7',
+    ),
+    'OnTVInputPropertiesList' => 
+    array (
+      11 => '11',
+    ),
+    'OnTVInputRenderList' => 
+    array (
+      11 => '11',
+    ),
+    'OnTVOutputRenderList' => 
+    array (
+      11 => '11',
+    ),
+    'OnTVOutputRenderPropertiesList' => 
+    array (
+      11 => '11',
     ),
     'OnUserSave' => 
     array (
@@ -646,6 +619,173 @@ This option enables you to specify where the toolbar should be located. This opt
       'moduleguid' => '',
       'static' => '0',
       'static_file' => '',
+    ),
+    7 => 
+    array (
+      'id' => '7',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'Ace',
+      'description' => 'Ace code editor plugin for MODx Revolution',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Ace Source Editor Plugin
+ *
+ * Events: OnManagerPageBeforeRender, OnRichTextEditorRegister, OnSnipFormPrerender,
+ * OnTempFormPrerender, OnChunkFormPrerender, OnPluginFormPrerender,
+ * OnFileCreateFormPrerender, OnFileEditFormPrerender, OnDocFormPrerender
+ *
+ * @author Danil Kostin <danya.postfactum(at)gmail.com>
+ *
+ * @package ace
+ *
+ * @var array $scriptProperties
+ * @var Ace $ace
+ */
+if ($modx->event->name == \'OnRichTextEditorRegister\') {
+    $modx->event->output(\'Ace\');
+    return;
+}
+
+if ($modx->getOption(\'which_element_editor\', null, \'Ace\') !== \'Ace\') {
+    return;
+}
+
+$ace = $modx->getService(\'ace\', \'Ace\', $modx->getOption(\'ace.core_path\', null, $modx->getOption(\'core_path\').\'components/ace/\').\'model/ace/\');
+$ace->initialize();
+
+$extensionMap = array(
+    \'tpl\'   => \'text/x-smarty\',
+    \'htm\'   => \'text/html\',
+    \'html\'  => \'text/html\',
+    \'css\'   => \'text/css\',
+    \'scss\'  => \'text/x-scss\',
+    \'less\'  => \'text/x-less\',
+    \'svg\'   => \'image/svg+xml\',
+    \'xml\'   => \'application/xml\',
+    \'xsl\'   => \'application/xml\',
+    \'js\'    => \'application/javascript\',
+    \'json\'  => \'application/json\',
+    \'php\'   => \'application/x-php\',
+    \'sql\'   => \'text/x-sql\',
+    \'md\'    => \'text/x-markdown\',
+    \'txt\'   => \'text/plain\',
+    \'twig\'  => \'text/x-twig\'
+);
+
+// Defines wether we should highlight modx tags
+$modxTags = false;
+switch ($modx->event->name) {
+    case \'OnSnipFormPrerender\':
+        $field = \'modx-snippet-snippet\';
+        $mimeType = \'application/x-php\';
+        break;
+    case \'OnTempFormPrerender\':
+        $field = \'modx-template-content\';
+        $modxTags = true;
+
+        switch (true) {
+            case $modx->getOption(\'twiggy_class\'):
+                $mimeType = \'text/x-twig\';
+                break;
+            case $modx->getOption(\'pdotools_fenom_parser\'):
+                $mimeType = \'text/x-smarty\';
+                break;
+            default:
+                $mimeType = \'text/html\';
+                break;
+        }
+
+        break;
+    case \'OnChunkFormPrerender\':
+        $field = \'modx-chunk-snippet\';
+        if ($modx->controller->chunk && $modx->controller->chunk->isStatic()) {
+            $extension = pathinfo($modx->controller->chunk->getSourceFile(), PATHINFO_EXTENSION);
+            $mimeType = isset($extensionMap[$extension]) ? $extensionMap[$extension] : \'text/plain\';
+        } else {
+            $mimeType = \'text/html\';
+        }
+        $modxTags = true;
+
+        switch (true) {
+            case $modx->getOption(\'twiggy_class\'):
+                $mimeType = \'text/x-twig\';
+                break;
+            case $modx->getOption(\'pdotools_fenom_default\'):
+                $mimeType = \'text/x-smarty\';
+                break;
+            default:
+                $mimeType = \'text/html\';
+                break;
+        }
+
+        break;
+    case \'OnPluginFormPrerender\':
+        $field = \'modx-plugin-plugincode\';
+        $mimeType = \'application/x-php\';
+        break;
+    case \'OnFileCreateFormPrerender\':
+        $field = \'modx-file-content\';
+        $mimeType = \'text/plain\';
+        break;
+    case \'OnFileEditFormPrerender\':
+        $field = \'modx-file-content\';
+        $extension = pathinfo($scriptProperties[\'file\'], PATHINFO_EXTENSION);
+        $mimeType = isset($extensionMap[$extension])
+            ? $extensionMap[$extension]
+            : \'text/plain\';
+        $modxTags = $extension == \'tpl\';
+        break;
+    case \'OnDocFormPrerender\':
+        if (!$modx->controller->resourceArray) {
+            return;
+        }
+        $field = \'ta\';
+        $mimeType = $modx->getObject(\'modContentType\', $modx->controller->resourceArray[\'content_type\'])->get(\'mime_type\');
+
+        switch (true) {
+            case $mimeType == \'text/html\' && $modx->getOption(\'twiggy_class\'):
+                $mimeType = \'text/x-twig\';
+                break;
+            case $mimeType == \'text/html\' && $modx->getOption(\'pdotools_fenom_parser\'):
+                $mimeType = \'text/x-smarty\';
+                break;
+        }
+
+        if ($modx->getOption(\'use_editor\')){
+            $richText = $modx->controller->resourceArray[\'richtext\'];
+            $classKey = $modx->controller->resourceArray[\'class_key\'];
+            if ($richText || in_array($classKey, array(\'modStaticResource\',\'modSymLink\',\'modWebLink\',\'modXMLRPCResource\'))) {
+                $field = false;
+            }
+        }
+        $modxTags = true;
+        break;
+    default:
+        return;
+}
+
+$modxTags = (int) $modxTags;
+$script = \'\';
+if ($field) {
+    $script .= "MODx.ux.Ace.replaceComponent(\'$field\', \'$mimeType\', $modxTags);";
+}
+
+if ($modx->event->name == \'OnDocFormPrerender\' && !$modx->getOption(\'use_editor\')) {
+    $script .= "MODx.ux.Ace.replaceTextAreas(Ext.query(\'.modx-richtext\'));";
+}
+
+if ($script) {
+    $modx->controller->addHtml(\'<script>Ext.onReady(function() {\' . $script . \'});</script>\');
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'ace/elements/plugins/ace.plugin.php',
     ),
     3 => 
     array (
@@ -778,6 +918,180 @@ return;',
       'moduleguid' => '',
       'static' => '0',
       'static_file' => '',
+    ),
+    8 => 
+    array (
+      'id' => '8',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'miniShop2',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '7',
+      'cache_type' => '0',
+      'plugincode' => '/** @var modX $modx */
+switch ($modx->event->name) {
+
+    case \'OnMODXInit\':
+        // Load extensions
+        /** @var miniShop2 $miniShop2 */
+        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
+            $miniShop2->loadMap();
+        }
+        break;
+
+    case \'OnHandleRequest\':
+        // Handle ajax requests
+        $isAjax = !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+        if (empty($_REQUEST[\'ms2_action\']) || !$isAjax) {
+            return;
+        }
+        /** @var miniShop2 $miniShop2 */
+        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
+            $response = $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
+            @session_write_close();
+            exit($response);
+        }
+        break;
+
+    case \'OnLoadWebDocument\':
+        // Handle non-ajax requests
+        if (!empty($_REQUEST[\'ms2_action\'])) {
+            if ($miniShop2 = $modx->getService(\'miniShop2\')) {
+                $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
+            }
+        }
+        // Set product fields as [[*resource]] tags
+        if ($modx->resource->get(\'class_key\') == \'msProduct\') {
+            if ($dataMeta = $modx->getFieldMeta(\'msProductData\')) {
+                unset($dataMeta[\'id\']);
+                $modx->resource->_fieldMeta = array_merge(
+                    $modx->resource->_fieldMeta,
+                    $dataMeta
+                );
+            }
+        }
+        break;
+
+    case \'OnWebPageInit\':
+        // Set referrer cookie
+        /** @var msCustomerProfile $profile */
+        $referrerVar = $modx->getOption(\'ms2_referrer_code_var\', null, \'msfrom\', true);
+        $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
+        $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
+
+        if (!$modx->user->isAuthenticated() && !empty($_REQUEST[$referrerVar])) {
+            $code = trim($_REQUEST[$referrerVar]);
+            if ($profile = $modx->getObject(\'msCustomerProfile\', array(\'referrer_code\' => $code))) {
+                $referrer = $profile->get(\'id\');
+                setcookie($cookieVar, $referrer, time() + $cookieTime);
+            }
+        }
+        break;
+
+    case \'OnUserSave\':
+        // Save referrer id
+        if ($mode == modSystemEvent::MODE_NEW) {
+            /** @var modUser $user */
+            $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
+            $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
+            if ($modx->context->key != \'mgr\' && !empty($_COOKIE[$cookieVar])) {
+                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
+                    if (!$profile->get(\'referrer_id\') && $_COOKIE[$cookieVar] != $user->get(\'id\')) {
+                        $profile->set(\'referrer_id\', (int)$_COOKIE[$cookieVar]);
+                        $profile->save();
+                    }
+                }
+                setcookie($cookieVar, \'\', time() - $cookieTime);
+            }
+        }
+        break;
+
+    case \'msOnChangeOrderStatus\':
+        // Update customer stat
+        if (empty($status) || $status != 2) {
+            return;
+        }
+
+        /** @var modUser $user */
+        if ($user = $order->getOne(\'User\')) {
+            $q = $modx->newQuery(\'msOrder\', array(\'type\' => 0));
+            $q->innerJoin(\'modUser\', \'modUser\', array(\'modUser.id = msOrder.user_id\'));
+            $q->innerJoin(\'msOrderLog\', \'msOrderLog\', array(
+                \'msOrderLog.order_id = msOrder.id\',
+                \'msOrderLog.action\' => \'status\',
+                \'msOrderLog.entry\' => $status,
+            ));
+            $q->where(array(\'msOrder.user_id\' => $user->get(\'id\')));
+            $q->groupby(\'msOrder.user_id\');
+            $q->select(\'SUM(msOrder.cost)\');
+            if ($q->prepare() && $q->stmt->execute()) {
+                $spent = $q->stmt->fetchColumn();
+                /** @var msCustomerProfile $profile */
+                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
+                    $profile->set(\'spent\', $spent);
+                    $profile->save();
+                }
+            }
+        }
+        break;
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/minishop2/elements/plugins/plugin.minishop2.php',
+    ),
+    9 => 
+    array (
+      'id' => '9',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'mSearch2',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '8',
+      'cache_type' => '0',
+      'plugincode' => '$id = 0;
+
+switch ($modx->event->name) {
+
+	case \'OnDocFormSave\':
+	case \'OnResourceDelete\':
+	case \'OnResourceUndelete\':
+		/* @var modResource $modResource */
+		if (!empty($resource) && $resource instanceof modResource) {
+			$id = $resource->get(\'id\');
+		}
+	break;
+
+	case \'OnCommentSave\':
+	case \'OnCommentRemove\':
+	case \'OnCommentDelete\':
+		/* @var TicketComment $TicketComment */
+		if (!empty($TicketComment) && $TicketComment instanceof TicketComment) {
+			$id = $TicketComment->getOne(\'Thread\')->get(\'resource\');
+		}
+	break;
+
+}
+
+
+if (!empty($id)) {
+	/* @var modProcessorResponse $response */
+	$response = $modx->runProcessor(\'mgr/index/update\', array(\'id\' => $id), array(\'processors_path\' => MODX_CORE_PATH . \'components/msearch2/processors/\'));
+
+	if ($response->isError()) {
+		$modx->log(modX::LOG_LEVEL_ERROR, print_r($response->getAllErrors(), true));
+	}
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/msearch2/elements/plugins/plugin.msearch2.php',
     ),
     5 => 
     array (
@@ -1097,347 +1411,6 @@ switch ($modx->event->name) {
       'static' => '0',
       'static_file' => 'core/components/minifyx/elements/plugins/plugin.minifyx.php',
     ),
-    7 => 
-    array (
-      'id' => '7',
-      'source' => '0',
-      'property_preprocess' => '0',
-      'name' => 'Ace',
-      'description' => 'Ace code editor plugin for MODx Revolution',
-      'editor_type' => '0',
-      'category' => '0',
-      'cache_type' => '0',
-      'plugincode' => '/**
- * Ace Source Editor Plugin
- *
- * Events: OnManagerPageBeforeRender, OnRichTextEditorRegister, OnSnipFormPrerender,
- * OnTempFormPrerender, OnChunkFormPrerender, OnPluginFormPrerender,
- * OnFileCreateFormPrerender, OnFileEditFormPrerender, OnDocFormPrerender
- *
- * @author Danil Kostin <danya.postfactum(at)gmail.com>
- *
- * @package ace
- *
- * @var array $scriptProperties
- * @var Ace $ace
- */
-if ($modx->event->name == \'OnRichTextEditorRegister\') {
-    $modx->event->output(\'Ace\');
-    return;
-}
-
-if ($modx->getOption(\'which_element_editor\', null, \'Ace\') !== \'Ace\') {
-    return;
-}
-
-$ace = $modx->getService(\'ace\', \'Ace\', $modx->getOption(\'ace.core_path\', null, $modx->getOption(\'core_path\').\'components/ace/\').\'model/ace/\');
-$ace->initialize();
-
-$extensionMap = array(
-    \'tpl\'   => \'text/x-smarty\',
-    \'htm\'   => \'text/html\',
-    \'html\'  => \'text/html\',
-    \'css\'   => \'text/css\',
-    \'scss\'  => \'text/x-scss\',
-    \'less\'  => \'text/x-less\',
-    \'svg\'   => \'image/svg+xml\',
-    \'xml\'   => \'application/xml\',
-    \'xsl\'   => \'application/xml\',
-    \'js\'    => \'application/javascript\',
-    \'json\'  => \'application/json\',
-    \'php\'   => \'application/x-php\',
-    \'sql\'   => \'text/x-sql\',
-    \'md\'    => \'text/x-markdown\',
-    \'txt\'   => \'text/plain\',
-    \'twig\'  => \'text/x-twig\'
-);
-
-// Defines wether we should highlight modx tags
-$modxTags = false;
-switch ($modx->event->name) {
-    case \'OnSnipFormPrerender\':
-        $field = \'modx-snippet-snippet\';
-        $mimeType = \'application/x-php\';
-        break;
-    case \'OnTempFormPrerender\':
-        $field = \'modx-template-content\';
-        $modxTags = true;
-
-        switch (true) {
-            case $modx->getOption(\'twiggy_class\'):
-                $mimeType = \'text/x-twig\';
-                break;
-            case $modx->getOption(\'pdotools_fenom_parser\'):
-                $mimeType = \'text/x-smarty\';
-                break;
-            default:
-                $mimeType = \'text/html\';
-                break;
-        }
-
-        break;
-    case \'OnChunkFormPrerender\':
-        $field = \'modx-chunk-snippet\';
-        if ($modx->controller->chunk && $modx->controller->chunk->isStatic()) {
-            $extension = pathinfo($modx->controller->chunk->getSourceFile(), PATHINFO_EXTENSION);
-            $mimeType = isset($extensionMap[$extension]) ? $extensionMap[$extension] : \'text/plain\';
-        } else {
-            $mimeType = \'text/html\';
-        }
-        $modxTags = true;
-
-        switch (true) {
-            case $modx->getOption(\'twiggy_class\'):
-                $mimeType = \'text/x-twig\';
-                break;
-            case $modx->getOption(\'pdotools_fenom_default\'):
-                $mimeType = \'text/x-smarty\';
-                break;
-            default:
-                $mimeType = \'text/html\';
-                break;
-        }
-
-        break;
-    case \'OnPluginFormPrerender\':
-        $field = \'modx-plugin-plugincode\';
-        $mimeType = \'application/x-php\';
-        break;
-    case \'OnFileCreateFormPrerender\':
-        $field = \'modx-file-content\';
-        $mimeType = \'text/plain\';
-        break;
-    case \'OnFileEditFormPrerender\':
-        $field = \'modx-file-content\';
-        $extension = pathinfo($scriptProperties[\'file\'], PATHINFO_EXTENSION);
-        $mimeType = isset($extensionMap[$extension])
-            ? $extensionMap[$extension]
-            : \'text/plain\';
-        $modxTags = $extension == \'tpl\';
-        break;
-    case \'OnDocFormPrerender\':
-        if (!$modx->controller->resourceArray) {
-            return;
-        }
-        $field = \'ta\';
-        $mimeType = $modx->getObject(\'modContentType\', $modx->controller->resourceArray[\'content_type\'])->get(\'mime_type\');
-
-        switch (true) {
-            case $mimeType == \'text/html\' && $modx->getOption(\'twiggy_class\'):
-                $mimeType = \'text/x-twig\';
-                break;
-            case $mimeType == \'text/html\' && $modx->getOption(\'pdotools_fenom_parser\'):
-                $mimeType = \'text/x-smarty\';
-                break;
-        }
-
-        if ($modx->getOption(\'use_editor\')){
-            $richText = $modx->controller->resourceArray[\'richtext\'];
-            $classKey = $modx->controller->resourceArray[\'class_key\'];
-            if ($richText || in_array($classKey, array(\'modStaticResource\',\'modSymLink\',\'modWebLink\',\'modXMLRPCResource\'))) {
-                $field = false;
-            }
-        }
-        $modxTags = true;
-        break;
-    default:
-        return;
-}
-
-$modxTags = (int) $modxTags;
-$script = \'\';
-if ($field) {
-    $script .= "MODx.ux.Ace.replaceComponent(\'$field\', \'$mimeType\', $modxTags);";
-}
-
-if ($modx->event->name == \'OnDocFormPrerender\' && !$modx->getOption(\'use_editor\')) {
-    $script .= "MODx.ux.Ace.replaceTextAreas(Ext.query(\'.modx-richtext\'));";
-}
-
-if ($script) {
-    $modx->controller->addHtml(\'<script>Ext.onReady(function() {\' . $script . \'});</script>\');
-}',
-      'locked' => '0',
-      'properties' => NULL,
-      'disabled' => '0',
-      'moduleguid' => '',
-      'static' => '0',
-      'static_file' => 'ace/elements/plugins/ace.plugin.php',
-    ),
-    8 => 
-    array (
-      'id' => '8',
-      'source' => '1',
-      'property_preprocess' => '0',
-      'name' => 'miniShop2',
-      'description' => '',
-      'editor_type' => '0',
-      'category' => '7',
-      'cache_type' => '0',
-      'plugincode' => '/** @var modX $modx */
-switch ($modx->event->name) {
-
-    case \'OnMODXInit\':
-        // Load extensions
-        /** @var miniShop2 $miniShop2 */
-        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
-            $miniShop2->loadMap();
-        }
-        break;
-
-    case \'OnHandleRequest\':
-        // Handle ajax requests
-        $isAjax = !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
-        if (empty($_REQUEST[\'ms2_action\']) || !$isAjax) {
-            return;
-        }
-        /** @var miniShop2 $miniShop2 */
-        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
-            $response = $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
-            @session_write_close();
-            exit($response);
-        }
-        break;
-
-    case \'OnLoadWebDocument\':
-        // Handle non-ajax requests
-        if (!empty($_REQUEST[\'ms2_action\'])) {
-            if ($miniShop2 = $modx->getService(\'miniShop2\')) {
-                $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
-            }
-        }
-        // Set product fields as [[*resource]] tags
-        if ($modx->resource->get(\'class_key\') == \'msProduct\') {
-            if ($dataMeta = $modx->getFieldMeta(\'msProductData\')) {
-                unset($dataMeta[\'id\']);
-                $modx->resource->_fieldMeta = array_merge(
-                    $modx->resource->_fieldMeta,
-                    $dataMeta
-                );
-            }
-        }
-        break;
-
-    case \'OnWebPageInit\':
-        // Set referrer cookie
-        /** @var msCustomerProfile $profile */
-        $referrerVar = $modx->getOption(\'ms2_referrer_code_var\', null, \'msfrom\', true);
-        $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
-        $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
-
-        if (!$modx->user->isAuthenticated() && !empty($_REQUEST[$referrerVar])) {
-            $code = trim($_REQUEST[$referrerVar]);
-            if ($profile = $modx->getObject(\'msCustomerProfile\', array(\'referrer_code\' => $code))) {
-                $referrer = $profile->get(\'id\');
-                setcookie($cookieVar, $referrer, time() + $cookieTime);
-            }
-        }
-        break;
-
-    case \'OnUserSave\':
-        // Save referrer id
-        if ($mode == modSystemEvent::MODE_NEW) {
-            /** @var modUser $user */
-            $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
-            $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
-            if ($modx->context->key != \'mgr\' && !empty($_COOKIE[$cookieVar])) {
-                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
-                    if (!$profile->get(\'referrer_id\') && $_COOKIE[$cookieVar] != $user->get(\'id\')) {
-                        $profile->set(\'referrer_id\', (int)$_COOKIE[$cookieVar]);
-                        $profile->save();
-                    }
-                }
-                setcookie($cookieVar, \'\', time() - $cookieTime);
-            }
-        }
-        break;
-
-    case \'msOnChangeOrderStatus\':
-        // Update customer stat
-        if (empty($status) || $status != 2) {
-            return;
-        }
-
-        /** @var modUser $user */
-        if ($user = $order->getOne(\'User\')) {
-            $q = $modx->newQuery(\'msOrder\', array(\'type\' => 0));
-            $q->innerJoin(\'modUser\', \'modUser\', array(\'modUser.id = msOrder.user_id\'));
-            $q->innerJoin(\'msOrderLog\', \'msOrderLog\', array(
-                \'msOrderLog.order_id = msOrder.id\',
-                \'msOrderLog.action\' => \'status\',
-                \'msOrderLog.entry\' => $status,
-            ));
-            $q->where(array(\'msOrder.user_id\' => $user->get(\'id\')));
-            $q->groupby(\'msOrder.user_id\');
-            $q->select(\'SUM(msOrder.cost)\');
-            if ($q->prepare() && $q->stmt->execute()) {
-                $spent = $q->stmt->fetchColumn();
-                /** @var msCustomerProfile $profile */
-                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
-                    $profile->set(\'spent\', $spent);
-                    $profile->save();
-                }
-            }
-        }
-        break;
-}',
-      'locked' => '0',
-      'properties' => NULL,
-      'disabled' => '0',
-      'moduleguid' => '',
-      'static' => '0',
-      'static_file' => 'core/components/minishop2/elements/plugins/plugin.minishop2.php',
-    ),
-    9 => 
-    array (
-      'id' => '9',
-      'source' => '1',
-      'property_preprocess' => '0',
-      'name' => 'mSearch2',
-      'description' => '',
-      'editor_type' => '0',
-      'category' => '8',
-      'cache_type' => '0',
-      'plugincode' => '$id = 0;
-
-switch ($modx->event->name) {
-
-	case \'OnDocFormSave\':
-	case \'OnResourceDelete\':
-	case \'OnResourceUndelete\':
-		/* @var modResource $modResource */
-		if (!empty($resource) && $resource instanceof modResource) {
-			$id = $resource->get(\'id\');
-		}
-	break;
-
-	case \'OnCommentSave\':
-	case \'OnCommentRemove\':
-	case \'OnCommentDelete\':
-		/* @var TicketComment $TicketComment */
-		if (!empty($TicketComment) && $TicketComment instanceof TicketComment) {
-			$id = $TicketComment->getOne(\'Thread\')->get(\'resource\');
-		}
-	break;
-
-}
-
-
-if (!empty($id)) {
-	/* @var modProcessorResponse $response */
-	$response = $modx->runProcessor(\'mgr/index/update\', array(\'id\' => $id), array(\'processors_path\' => MODX_CORE_PATH . \'components/msearch2/processors/\'));
-
-	if ($response->isError()) {
-		$modx->log(modX::LOG_LEVEL_ERROR, print_r($response->getAllErrors(), true));
-	}
-}',
-      'locked' => '0',
-      'properties' => NULL,
-      'disabled' => '0',
-      'moduleguid' => '',
-      'static' => '0',
-      'static_file' => 'core/components/msearch2/elements/plugins/plugin.msearch2.php',
-    ),
     10 => 
     array (
       'id' => '10',
@@ -1515,6 +1488,96 @@ switch ($modx->event->name) {
             }
         }
 
+        break;
+}
+return;',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
+    11 => 
+    array (
+      'id' => '11',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'GalleryCustomTV',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Handles plugin events for Gallery\'s Custom TV
+ * 
+ * @package gallery
+ */
+$corePath = $modx->getOption(\'gallery.core_path\',null,$modx->getOption(\'core_path\').\'components/gallery/\');
+switch ($modx->event->name) {
+    case \'OnTVInputRenderList\':
+        $modx->event->output($corePath.\'elements/tv/input/\');
+        break;
+    case \'OnTVOutputRenderList\':
+        $modx->event->output($corePath.\'elements/tv/output/\');
+        break;
+    case \'OnTVInputPropertiesList\':
+        $modx->event->output($corePath.\'elements/tv/inputoptions/\');
+        break;
+    case \'OnTVOutputRenderPropertiesList\':
+        $modx->event->output($corePath.\'elements/tv/properties/\');
+        break;
+    case \'OnManagerPageBeforeRender\':
+        $gallery = $modx->getService(\'gallery\',\'Gallery\',$modx->getOption(\'gallery.core_path\',null,$modx->getOption(\'core_path\').\'components/gallery/\').\'model/gallery/\',$scriptProperties);
+        if (!($gallery instanceof Gallery)) return \'\';
+
+        $snippetIds = \'\';
+        $gallerySnippet = $modx->getObject(\'modSnippet\',array(\'name\' => \'Gallery\'));
+        if ($gallerySnippet) {
+            $snippetIds .= \'GAL.snippetGallery = "\'.$gallerySnippet->get(\'id\').\'";\'."\\n";
+        }
+        $galleryItemSnippet = $modx->getObject(\'modSnippet\',array(\'name\' => \'GalleryItem\'));
+        if ($galleryItemSnippet) {
+            $snippetIds .= \'GAL.snippetGalleryItem = "\'.$galleryItemSnippet->get(\'id\').\'";\'."\\n";
+        }
+
+        $jsDir = $modx->getOption(\'gallery.assets_url\',null,$modx->getOption(\'assets_url\').\'components/gallery/\').\'js/mgr/\';
+        $modx->controller->addLexiconTopic(\'gallery:default\');
+        $modx->controller->addJavascript($jsDir.\'gallery.js\');
+        $modx->controller->addJavascript($jsDir.\'tree.js\');
+        $modx->controller->addHtml(\'<script type="text/javascript">
+        Ext.onReady(function() {
+            GAL.config.connector_url = "\'.$gallery->config[\'connectorUrl\'].\'";
+            \'.$snippetIds.\'
+        });
+        </script>\');
+        break;
+    case \'OnDocFormPrerender\':
+        $gallery = $modx->getService(\'gallery\',\'Gallery\',$modx->getOption(\'gallery.core_path\',null,$modx->getOption(\'core_path\').\'components/gallery/\').\'model/gallery/\',$scriptProperties);
+        if (!($gallery instanceof Gallery)) return \'\';
+
+        /* assign gallery lang to JS */
+        $modx->controller->addLexiconTopic(\'gallery:tv\');
+
+        /* @var modAction $action */
+        $action = $modx->getObject(\'modAction\',array(
+            \'namespace\' => \'gallery\',
+            \'controller\' => \'index\',
+        ));
+        $modx->controller->addHtml(\'<script type="text/javascript">
+        Ext.onReady(function() {
+            GAL.config = {};
+            GAL.config.connector_url = "\'.$gallery->config[\'connectorUrl\'].\'";
+            GAL.action = "\'.($action ? $action->get(\'id\') : 0).\'";
+        });
+        </script>\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/tv/Spotlight.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/gallery.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/widgets/album/album.items.view.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/widgets/album/album.tree.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/tv/gal.browser.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/tv/galtv.js\');
+        $modx->controller->addCss($gallery->config[\'cssUrl\'].\'mgr.css\');
         break;
 }
 return;',

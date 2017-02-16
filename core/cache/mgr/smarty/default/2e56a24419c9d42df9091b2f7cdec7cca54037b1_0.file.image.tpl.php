@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2017-02-05 16:03:53
+<?php /* Smarty version 3.1.27, created on 2017-02-15 07:04:42
          compiled from "/mamp/karapuz-new/manager/templates/default/element/tv/renders/input/image.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:732873145589730c9b56893_60156711%%*/
+/*%%SmartyHeaderCode:114938369658a3e16a001967_20661179%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2e56a24419c9d42df9091b2f7cdec7cca54037b1' => 
     array (
       0 => '/mamp/karapuz-new/manager/templates/default/element/tv/renders/input/image.tpl',
-      1 => 1483440292,
+      1 => 1487132512,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '732873145589730c9b56893_60156711',
+  'nocache_hash' => '114938369658a3e16a001967_20661179',
   'variables' => 
   array (
     'tv' => 0,
@@ -25,14 +25,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_589730c9d04814_68514033',
+  'unifunc' => 'content_58a3e16a1e83a8_01135417',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_589730c9d04814_68514033')) {
-function content_589730c9d04814_68514033 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_58a3e16a1e83a8_01135417')) {
+function content_58a3e16a1e83a8_01135417 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_replace')) require_once '/mamp/karapuz-new/core/model/smarty/plugins/modifier.replace.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '732873145589730c9b56893_60156711';
+$_smarty_tpl->properties['nocache_hash'] = '114938369658a3e16a001967_20661179';
 ?>
 <div id="tv-image-<?php echo $_smarty_tpl->tpl_vars['tv']->value->id;?>
 "></div>

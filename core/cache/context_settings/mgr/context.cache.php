@@ -27,6 +27,7 @@
     ),
     'OnDocFormPrerender' => 
     array (
+      11 => '11',
       3 => '3',
       7 => '7',
     ),
@@ -54,6 +55,7 @@
     'OnManagerPageBeforeRender' => 
     array (
       7 => '7',
+      11 => '11',
     ),
     'OnMODXInit' => 
     array (
@@ -102,6 +104,22 @@
     array (
       7 => '7',
       3 => '3',
+    ),
+    'OnTVInputPropertiesList' => 
+    array (
+      11 => '11',
+    ),
+    'OnTVInputRenderList' => 
+    array (
+      11 => '11',
+    ),
+    'OnTVOutputRenderList' => 
+    array (
+      11 => '11',
+    ),
+    'OnTVOutputRenderPropertiesList' => 
+    array (
+      11 => '11',
     ),
     'OnUserSave' => 
     array (
@@ -203,6 +221,173 @@ This option enables you to specify where the toolbar should be located. This opt
       'moduleguid' => '',
       'static' => '0',
       'static_file' => '',
+    ),
+    7 => 
+    array (
+      'id' => '7',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'Ace',
+      'description' => 'Ace code editor plugin for MODx Revolution',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Ace Source Editor Plugin
+ *
+ * Events: OnManagerPageBeforeRender, OnRichTextEditorRegister, OnSnipFormPrerender,
+ * OnTempFormPrerender, OnChunkFormPrerender, OnPluginFormPrerender,
+ * OnFileCreateFormPrerender, OnFileEditFormPrerender, OnDocFormPrerender
+ *
+ * @author Danil Kostin <danya.postfactum(at)gmail.com>
+ *
+ * @package ace
+ *
+ * @var array $scriptProperties
+ * @var Ace $ace
+ */
+if ($modx->event->name == \'OnRichTextEditorRegister\') {
+    $modx->event->output(\'Ace\');
+    return;
+}
+
+if ($modx->getOption(\'which_element_editor\', null, \'Ace\') !== \'Ace\') {
+    return;
+}
+
+$ace = $modx->getService(\'ace\', \'Ace\', $modx->getOption(\'ace.core_path\', null, $modx->getOption(\'core_path\').\'components/ace/\').\'model/ace/\');
+$ace->initialize();
+
+$extensionMap = array(
+    \'tpl\'   => \'text/x-smarty\',
+    \'htm\'   => \'text/html\',
+    \'html\'  => \'text/html\',
+    \'css\'   => \'text/css\',
+    \'scss\'  => \'text/x-scss\',
+    \'less\'  => \'text/x-less\',
+    \'svg\'   => \'image/svg+xml\',
+    \'xml\'   => \'application/xml\',
+    \'xsl\'   => \'application/xml\',
+    \'js\'    => \'application/javascript\',
+    \'json\'  => \'application/json\',
+    \'php\'   => \'application/x-php\',
+    \'sql\'   => \'text/x-sql\',
+    \'md\'    => \'text/x-markdown\',
+    \'txt\'   => \'text/plain\',
+    \'twig\'  => \'text/x-twig\'
+);
+
+// Defines wether we should highlight modx tags
+$modxTags = false;
+switch ($modx->event->name) {
+    case \'OnSnipFormPrerender\':
+        $field = \'modx-snippet-snippet\';
+        $mimeType = \'application/x-php\';
+        break;
+    case \'OnTempFormPrerender\':
+        $field = \'modx-template-content\';
+        $modxTags = true;
+
+        switch (true) {
+            case $modx->getOption(\'twiggy_class\'):
+                $mimeType = \'text/x-twig\';
+                break;
+            case $modx->getOption(\'pdotools_fenom_parser\'):
+                $mimeType = \'text/x-smarty\';
+                break;
+            default:
+                $mimeType = \'text/html\';
+                break;
+        }
+
+        break;
+    case \'OnChunkFormPrerender\':
+        $field = \'modx-chunk-snippet\';
+        if ($modx->controller->chunk && $modx->controller->chunk->isStatic()) {
+            $extension = pathinfo($modx->controller->chunk->getSourceFile(), PATHINFO_EXTENSION);
+            $mimeType = isset($extensionMap[$extension]) ? $extensionMap[$extension] : \'text/plain\';
+        } else {
+            $mimeType = \'text/html\';
+        }
+        $modxTags = true;
+
+        switch (true) {
+            case $modx->getOption(\'twiggy_class\'):
+                $mimeType = \'text/x-twig\';
+                break;
+            case $modx->getOption(\'pdotools_fenom_default\'):
+                $mimeType = \'text/x-smarty\';
+                break;
+            default:
+                $mimeType = \'text/html\';
+                break;
+        }
+
+        break;
+    case \'OnPluginFormPrerender\':
+        $field = \'modx-plugin-plugincode\';
+        $mimeType = \'application/x-php\';
+        break;
+    case \'OnFileCreateFormPrerender\':
+        $field = \'modx-file-content\';
+        $mimeType = \'text/plain\';
+        break;
+    case \'OnFileEditFormPrerender\':
+        $field = \'modx-file-content\';
+        $extension = pathinfo($scriptProperties[\'file\'], PATHINFO_EXTENSION);
+        $mimeType = isset($extensionMap[$extension])
+            ? $extensionMap[$extension]
+            : \'text/plain\';
+        $modxTags = $extension == \'tpl\';
+        break;
+    case \'OnDocFormPrerender\':
+        if (!$modx->controller->resourceArray) {
+            return;
+        }
+        $field = \'ta\';
+        $mimeType = $modx->getObject(\'modContentType\', $modx->controller->resourceArray[\'content_type\'])->get(\'mime_type\');
+
+        switch (true) {
+            case $mimeType == \'text/html\' && $modx->getOption(\'twiggy_class\'):
+                $mimeType = \'text/x-twig\';
+                break;
+            case $mimeType == \'text/html\' && $modx->getOption(\'pdotools_fenom_parser\'):
+                $mimeType = \'text/x-smarty\';
+                break;
+        }
+
+        if ($modx->getOption(\'use_editor\')){
+            $richText = $modx->controller->resourceArray[\'richtext\'];
+            $classKey = $modx->controller->resourceArray[\'class_key\'];
+            if ($richText || in_array($classKey, array(\'modStaticResource\',\'modSymLink\',\'modWebLink\',\'modXMLRPCResource\'))) {
+                $field = false;
+            }
+        }
+        $modxTags = true;
+        break;
+    default:
+        return;
+}
+
+$modxTags = (int) $modxTags;
+$script = \'\';
+if ($field) {
+    $script .= "MODx.ux.Ace.replaceComponent(\'$field\', \'$mimeType\', $modxTags);";
+}
+
+if ($modx->event->name == \'OnDocFormPrerender\' && !$modx->getOption(\'use_editor\')) {
+    $script .= "MODx.ux.Ace.replaceTextAreas(Ext.query(\'.modx-richtext\'));";
+}
+
+if ($script) {
+    $modx->controller->addHtml(\'<script>Ext.onReady(function() {\' . $script . \'});</script>\');
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'ace/elements/plugins/ace.plugin.php',
     ),
     3 => 
     array (
@@ -335,6 +520,180 @@ return;',
       'moduleguid' => '',
       'static' => '0',
       'static_file' => '',
+    ),
+    8 => 
+    array (
+      'id' => '8',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'miniShop2',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '7',
+      'cache_type' => '0',
+      'plugincode' => '/** @var modX $modx */
+switch ($modx->event->name) {
+
+    case \'OnMODXInit\':
+        // Load extensions
+        /** @var miniShop2 $miniShop2 */
+        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
+            $miniShop2->loadMap();
+        }
+        break;
+
+    case \'OnHandleRequest\':
+        // Handle ajax requests
+        $isAjax = !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+        if (empty($_REQUEST[\'ms2_action\']) || !$isAjax) {
+            return;
+        }
+        /** @var miniShop2 $miniShop2 */
+        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
+            $response = $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
+            @session_write_close();
+            exit($response);
+        }
+        break;
+
+    case \'OnLoadWebDocument\':
+        // Handle non-ajax requests
+        if (!empty($_REQUEST[\'ms2_action\'])) {
+            if ($miniShop2 = $modx->getService(\'miniShop2\')) {
+                $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
+            }
+        }
+        // Set product fields as [[*resource]] tags
+        if ($modx->resource->get(\'class_key\') == \'msProduct\') {
+            if ($dataMeta = $modx->getFieldMeta(\'msProductData\')) {
+                unset($dataMeta[\'id\']);
+                $modx->resource->_fieldMeta = array_merge(
+                    $modx->resource->_fieldMeta,
+                    $dataMeta
+                );
+            }
+        }
+        break;
+
+    case \'OnWebPageInit\':
+        // Set referrer cookie
+        /** @var msCustomerProfile $profile */
+        $referrerVar = $modx->getOption(\'ms2_referrer_code_var\', null, \'msfrom\', true);
+        $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
+        $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
+
+        if (!$modx->user->isAuthenticated() && !empty($_REQUEST[$referrerVar])) {
+            $code = trim($_REQUEST[$referrerVar]);
+            if ($profile = $modx->getObject(\'msCustomerProfile\', array(\'referrer_code\' => $code))) {
+                $referrer = $profile->get(\'id\');
+                setcookie($cookieVar, $referrer, time() + $cookieTime);
+            }
+        }
+        break;
+
+    case \'OnUserSave\':
+        // Save referrer id
+        if ($mode == modSystemEvent::MODE_NEW) {
+            /** @var modUser $user */
+            $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
+            $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
+            if ($modx->context->key != \'mgr\' && !empty($_COOKIE[$cookieVar])) {
+                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
+                    if (!$profile->get(\'referrer_id\') && $_COOKIE[$cookieVar] != $user->get(\'id\')) {
+                        $profile->set(\'referrer_id\', (int)$_COOKIE[$cookieVar]);
+                        $profile->save();
+                    }
+                }
+                setcookie($cookieVar, \'\', time() - $cookieTime);
+            }
+        }
+        break;
+
+    case \'msOnChangeOrderStatus\':
+        // Update customer stat
+        if (empty($status) || $status != 2) {
+            return;
+        }
+
+        /** @var modUser $user */
+        if ($user = $order->getOne(\'User\')) {
+            $q = $modx->newQuery(\'msOrder\', array(\'type\' => 0));
+            $q->innerJoin(\'modUser\', \'modUser\', array(\'modUser.id = msOrder.user_id\'));
+            $q->innerJoin(\'msOrderLog\', \'msOrderLog\', array(
+                \'msOrderLog.order_id = msOrder.id\',
+                \'msOrderLog.action\' => \'status\',
+                \'msOrderLog.entry\' => $status,
+            ));
+            $q->where(array(\'msOrder.user_id\' => $user->get(\'id\')));
+            $q->groupby(\'msOrder.user_id\');
+            $q->select(\'SUM(msOrder.cost)\');
+            if ($q->prepare() && $q->stmt->execute()) {
+                $spent = $q->stmt->fetchColumn();
+                /** @var msCustomerProfile $profile */
+                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
+                    $profile->set(\'spent\', $spent);
+                    $profile->save();
+                }
+            }
+        }
+        break;
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/minishop2/elements/plugins/plugin.minishop2.php',
+    ),
+    9 => 
+    array (
+      'id' => '9',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'mSearch2',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '8',
+      'cache_type' => '0',
+      'plugincode' => '$id = 0;
+
+switch ($modx->event->name) {
+
+	case \'OnDocFormSave\':
+	case \'OnResourceDelete\':
+	case \'OnResourceUndelete\':
+		/* @var modResource $modResource */
+		if (!empty($resource) && $resource instanceof modResource) {
+			$id = $resource->get(\'id\');
+		}
+	break;
+
+	case \'OnCommentSave\':
+	case \'OnCommentRemove\':
+	case \'OnCommentDelete\':
+		/* @var TicketComment $TicketComment */
+		if (!empty($TicketComment) && $TicketComment instanceof TicketComment) {
+			$id = $TicketComment->getOne(\'Thread\')->get(\'resource\');
+		}
+	break;
+
+}
+
+
+if (!empty($id)) {
+	/* @var modProcessorResponse $response */
+	$response = $modx->runProcessor(\'mgr/index/update\', array(\'id\' => $id), array(\'processors_path\' => MODX_CORE_PATH . \'components/msearch2/processors/\'));
+
+	if ($response->isError()) {
+		$modx->log(modX::LOG_LEVEL_ERROR, print_r($response->getAllErrors(), true));
+	}
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/msearch2/elements/plugins/plugin.msearch2.php',
     ),
     5 => 
     array (
@@ -654,347 +1013,6 @@ switch ($modx->event->name) {
       'static' => '0',
       'static_file' => 'core/components/minifyx/elements/plugins/plugin.minifyx.php',
     ),
-    7 => 
-    array (
-      'id' => '7',
-      'source' => '0',
-      'property_preprocess' => '0',
-      'name' => 'Ace',
-      'description' => 'Ace code editor plugin for MODx Revolution',
-      'editor_type' => '0',
-      'category' => '0',
-      'cache_type' => '0',
-      'plugincode' => '/**
- * Ace Source Editor Plugin
- *
- * Events: OnManagerPageBeforeRender, OnRichTextEditorRegister, OnSnipFormPrerender,
- * OnTempFormPrerender, OnChunkFormPrerender, OnPluginFormPrerender,
- * OnFileCreateFormPrerender, OnFileEditFormPrerender, OnDocFormPrerender
- *
- * @author Danil Kostin <danya.postfactum(at)gmail.com>
- *
- * @package ace
- *
- * @var array $scriptProperties
- * @var Ace $ace
- */
-if ($modx->event->name == \'OnRichTextEditorRegister\') {
-    $modx->event->output(\'Ace\');
-    return;
-}
-
-if ($modx->getOption(\'which_element_editor\', null, \'Ace\') !== \'Ace\') {
-    return;
-}
-
-$ace = $modx->getService(\'ace\', \'Ace\', $modx->getOption(\'ace.core_path\', null, $modx->getOption(\'core_path\').\'components/ace/\').\'model/ace/\');
-$ace->initialize();
-
-$extensionMap = array(
-    \'tpl\'   => \'text/x-smarty\',
-    \'htm\'   => \'text/html\',
-    \'html\'  => \'text/html\',
-    \'css\'   => \'text/css\',
-    \'scss\'  => \'text/x-scss\',
-    \'less\'  => \'text/x-less\',
-    \'svg\'   => \'image/svg+xml\',
-    \'xml\'   => \'application/xml\',
-    \'xsl\'   => \'application/xml\',
-    \'js\'    => \'application/javascript\',
-    \'json\'  => \'application/json\',
-    \'php\'   => \'application/x-php\',
-    \'sql\'   => \'text/x-sql\',
-    \'md\'    => \'text/x-markdown\',
-    \'txt\'   => \'text/plain\',
-    \'twig\'  => \'text/x-twig\'
-);
-
-// Defines wether we should highlight modx tags
-$modxTags = false;
-switch ($modx->event->name) {
-    case \'OnSnipFormPrerender\':
-        $field = \'modx-snippet-snippet\';
-        $mimeType = \'application/x-php\';
-        break;
-    case \'OnTempFormPrerender\':
-        $field = \'modx-template-content\';
-        $modxTags = true;
-
-        switch (true) {
-            case $modx->getOption(\'twiggy_class\'):
-                $mimeType = \'text/x-twig\';
-                break;
-            case $modx->getOption(\'pdotools_fenom_parser\'):
-                $mimeType = \'text/x-smarty\';
-                break;
-            default:
-                $mimeType = \'text/html\';
-                break;
-        }
-
-        break;
-    case \'OnChunkFormPrerender\':
-        $field = \'modx-chunk-snippet\';
-        if ($modx->controller->chunk && $modx->controller->chunk->isStatic()) {
-            $extension = pathinfo($modx->controller->chunk->getSourceFile(), PATHINFO_EXTENSION);
-            $mimeType = isset($extensionMap[$extension]) ? $extensionMap[$extension] : \'text/plain\';
-        } else {
-            $mimeType = \'text/html\';
-        }
-        $modxTags = true;
-
-        switch (true) {
-            case $modx->getOption(\'twiggy_class\'):
-                $mimeType = \'text/x-twig\';
-                break;
-            case $modx->getOption(\'pdotools_fenom_default\'):
-                $mimeType = \'text/x-smarty\';
-                break;
-            default:
-                $mimeType = \'text/html\';
-                break;
-        }
-
-        break;
-    case \'OnPluginFormPrerender\':
-        $field = \'modx-plugin-plugincode\';
-        $mimeType = \'application/x-php\';
-        break;
-    case \'OnFileCreateFormPrerender\':
-        $field = \'modx-file-content\';
-        $mimeType = \'text/plain\';
-        break;
-    case \'OnFileEditFormPrerender\':
-        $field = \'modx-file-content\';
-        $extension = pathinfo($scriptProperties[\'file\'], PATHINFO_EXTENSION);
-        $mimeType = isset($extensionMap[$extension])
-            ? $extensionMap[$extension]
-            : \'text/plain\';
-        $modxTags = $extension == \'tpl\';
-        break;
-    case \'OnDocFormPrerender\':
-        if (!$modx->controller->resourceArray) {
-            return;
-        }
-        $field = \'ta\';
-        $mimeType = $modx->getObject(\'modContentType\', $modx->controller->resourceArray[\'content_type\'])->get(\'mime_type\');
-
-        switch (true) {
-            case $mimeType == \'text/html\' && $modx->getOption(\'twiggy_class\'):
-                $mimeType = \'text/x-twig\';
-                break;
-            case $mimeType == \'text/html\' && $modx->getOption(\'pdotools_fenom_parser\'):
-                $mimeType = \'text/x-smarty\';
-                break;
-        }
-
-        if ($modx->getOption(\'use_editor\')){
-            $richText = $modx->controller->resourceArray[\'richtext\'];
-            $classKey = $modx->controller->resourceArray[\'class_key\'];
-            if ($richText || in_array($classKey, array(\'modStaticResource\',\'modSymLink\',\'modWebLink\',\'modXMLRPCResource\'))) {
-                $field = false;
-            }
-        }
-        $modxTags = true;
-        break;
-    default:
-        return;
-}
-
-$modxTags = (int) $modxTags;
-$script = \'\';
-if ($field) {
-    $script .= "MODx.ux.Ace.replaceComponent(\'$field\', \'$mimeType\', $modxTags);";
-}
-
-if ($modx->event->name == \'OnDocFormPrerender\' && !$modx->getOption(\'use_editor\')) {
-    $script .= "MODx.ux.Ace.replaceTextAreas(Ext.query(\'.modx-richtext\'));";
-}
-
-if ($script) {
-    $modx->controller->addHtml(\'<script>Ext.onReady(function() {\' . $script . \'});</script>\');
-}',
-      'locked' => '0',
-      'properties' => NULL,
-      'disabled' => '0',
-      'moduleguid' => '',
-      'static' => '0',
-      'static_file' => 'ace/elements/plugins/ace.plugin.php',
-    ),
-    8 => 
-    array (
-      'id' => '8',
-      'source' => '1',
-      'property_preprocess' => '0',
-      'name' => 'miniShop2',
-      'description' => '',
-      'editor_type' => '0',
-      'category' => '7',
-      'cache_type' => '0',
-      'plugincode' => '/** @var modX $modx */
-switch ($modx->event->name) {
-
-    case \'OnMODXInit\':
-        // Load extensions
-        /** @var miniShop2 $miniShop2 */
-        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
-            $miniShop2->loadMap();
-        }
-        break;
-
-    case \'OnHandleRequest\':
-        // Handle ajax requests
-        $isAjax = !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
-        if (empty($_REQUEST[\'ms2_action\']) || !$isAjax) {
-            return;
-        }
-        /** @var miniShop2 $miniShop2 */
-        if ($miniShop2 = $modx->getService(\'miniShop2\')) {
-            $response = $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
-            @session_write_close();
-            exit($response);
-        }
-        break;
-
-    case \'OnLoadWebDocument\':
-        // Handle non-ajax requests
-        if (!empty($_REQUEST[\'ms2_action\'])) {
-            if ($miniShop2 = $modx->getService(\'miniShop2\')) {
-                $miniShop2->handleRequest($_REQUEST[\'ms2_action\'], @$_POST);
-            }
-        }
-        // Set product fields as [[*resource]] tags
-        if ($modx->resource->get(\'class_key\') == \'msProduct\') {
-            if ($dataMeta = $modx->getFieldMeta(\'msProductData\')) {
-                unset($dataMeta[\'id\']);
-                $modx->resource->_fieldMeta = array_merge(
-                    $modx->resource->_fieldMeta,
-                    $dataMeta
-                );
-            }
-        }
-        break;
-
-    case \'OnWebPageInit\':
-        // Set referrer cookie
-        /** @var msCustomerProfile $profile */
-        $referrerVar = $modx->getOption(\'ms2_referrer_code_var\', null, \'msfrom\', true);
-        $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
-        $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
-
-        if (!$modx->user->isAuthenticated() && !empty($_REQUEST[$referrerVar])) {
-            $code = trim($_REQUEST[$referrerVar]);
-            if ($profile = $modx->getObject(\'msCustomerProfile\', array(\'referrer_code\' => $code))) {
-                $referrer = $profile->get(\'id\');
-                setcookie($cookieVar, $referrer, time() + $cookieTime);
-            }
-        }
-        break;
-
-    case \'OnUserSave\':
-        // Save referrer id
-        if ($mode == modSystemEvent::MODE_NEW) {
-            /** @var modUser $user */
-            $cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
-            $cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
-            if ($modx->context->key != \'mgr\' && !empty($_COOKIE[$cookieVar])) {
-                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
-                    if (!$profile->get(\'referrer_id\') && $_COOKIE[$cookieVar] != $user->get(\'id\')) {
-                        $profile->set(\'referrer_id\', (int)$_COOKIE[$cookieVar]);
-                        $profile->save();
-                    }
-                }
-                setcookie($cookieVar, \'\', time() - $cookieTime);
-            }
-        }
-        break;
-
-    case \'msOnChangeOrderStatus\':
-        // Update customer stat
-        if (empty($status) || $status != 2) {
-            return;
-        }
-
-        /** @var modUser $user */
-        if ($user = $order->getOne(\'User\')) {
-            $q = $modx->newQuery(\'msOrder\', array(\'type\' => 0));
-            $q->innerJoin(\'modUser\', \'modUser\', array(\'modUser.id = msOrder.user_id\'));
-            $q->innerJoin(\'msOrderLog\', \'msOrderLog\', array(
-                \'msOrderLog.order_id = msOrder.id\',
-                \'msOrderLog.action\' => \'status\',
-                \'msOrderLog.entry\' => $status,
-            ));
-            $q->where(array(\'msOrder.user_id\' => $user->get(\'id\')));
-            $q->groupby(\'msOrder.user_id\');
-            $q->select(\'SUM(msOrder.cost)\');
-            if ($q->prepare() && $q->stmt->execute()) {
-                $spent = $q->stmt->fetchColumn();
-                /** @var msCustomerProfile $profile */
-                if ($profile = $modx->getObject(\'msCustomerProfile\', $user->get(\'id\'))) {
-                    $profile->set(\'spent\', $spent);
-                    $profile->save();
-                }
-            }
-        }
-        break;
-}',
-      'locked' => '0',
-      'properties' => NULL,
-      'disabled' => '0',
-      'moduleguid' => '',
-      'static' => '0',
-      'static_file' => 'core/components/minishop2/elements/plugins/plugin.minishop2.php',
-    ),
-    9 => 
-    array (
-      'id' => '9',
-      'source' => '1',
-      'property_preprocess' => '0',
-      'name' => 'mSearch2',
-      'description' => '',
-      'editor_type' => '0',
-      'category' => '8',
-      'cache_type' => '0',
-      'plugincode' => '$id = 0;
-
-switch ($modx->event->name) {
-
-	case \'OnDocFormSave\':
-	case \'OnResourceDelete\':
-	case \'OnResourceUndelete\':
-		/* @var modResource $modResource */
-		if (!empty($resource) && $resource instanceof modResource) {
-			$id = $resource->get(\'id\');
-		}
-	break;
-
-	case \'OnCommentSave\':
-	case \'OnCommentRemove\':
-	case \'OnCommentDelete\':
-		/* @var TicketComment $TicketComment */
-		if (!empty($TicketComment) && $TicketComment instanceof TicketComment) {
-			$id = $TicketComment->getOne(\'Thread\')->get(\'resource\');
-		}
-	break;
-
-}
-
-
-if (!empty($id)) {
-	/* @var modProcessorResponse $response */
-	$response = $modx->runProcessor(\'mgr/index/update\', array(\'id\' => $id), array(\'processors_path\' => MODX_CORE_PATH . \'components/msearch2/processors/\'));
-
-	if ($response->isError()) {
-		$modx->log(modX::LOG_LEVEL_ERROR, print_r($response->getAllErrors(), true));
-	}
-}',
-      'locked' => '0',
-      'properties' => NULL,
-      'disabled' => '0',
-      'moduleguid' => '',
-      'static' => '0',
-      'static_file' => 'core/components/msearch2/elements/plugins/plugin.msearch2.php',
-    ),
     10 => 
     array (
       'id' => '10',
@@ -1072,6 +1090,96 @@ switch ($modx->event->name) {
             }
         }
 
+        break;
+}
+return;',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
+    11 => 
+    array (
+      'id' => '11',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'GalleryCustomTV',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Handles plugin events for Gallery\'s Custom TV
+ * 
+ * @package gallery
+ */
+$corePath = $modx->getOption(\'gallery.core_path\',null,$modx->getOption(\'core_path\').\'components/gallery/\');
+switch ($modx->event->name) {
+    case \'OnTVInputRenderList\':
+        $modx->event->output($corePath.\'elements/tv/input/\');
+        break;
+    case \'OnTVOutputRenderList\':
+        $modx->event->output($corePath.\'elements/tv/output/\');
+        break;
+    case \'OnTVInputPropertiesList\':
+        $modx->event->output($corePath.\'elements/tv/inputoptions/\');
+        break;
+    case \'OnTVOutputRenderPropertiesList\':
+        $modx->event->output($corePath.\'elements/tv/properties/\');
+        break;
+    case \'OnManagerPageBeforeRender\':
+        $gallery = $modx->getService(\'gallery\',\'Gallery\',$modx->getOption(\'gallery.core_path\',null,$modx->getOption(\'core_path\').\'components/gallery/\').\'model/gallery/\',$scriptProperties);
+        if (!($gallery instanceof Gallery)) return \'\';
+
+        $snippetIds = \'\';
+        $gallerySnippet = $modx->getObject(\'modSnippet\',array(\'name\' => \'Gallery\'));
+        if ($gallerySnippet) {
+            $snippetIds .= \'GAL.snippetGallery = "\'.$gallerySnippet->get(\'id\').\'";\'."\\n";
+        }
+        $galleryItemSnippet = $modx->getObject(\'modSnippet\',array(\'name\' => \'GalleryItem\'));
+        if ($galleryItemSnippet) {
+            $snippetIds .= \'GAL.snippetGalleryItem = "\'.$galleryItemSnippet->get(\'id\').\'";\'."\\n";
+        }
+
+        $jsDir = $modx->getOption(\'gallery.assets_url\',null,$modx->getOption(\'assets_url\').\'components/gallery/\').\'js/mgr/\';
+        $modx->controller->addLexiconTopic(\'gallery:default\');
+        $modx->controller->addJavascript($jsDir.\'gallery.js\');
+        $modx->controller->addJavascript($jsDir.\'tree.js\');
+        $modx->controller->addHtml(\'<script type="text/javascript">
+        Ext.onReady(function() {
+            GAL.config.connector_url = "\'.$gallery->config[\'connectorUrl\'].\'";
+            \'.$snippetIds.\'
+        });
+        </script>\');
+        break;
+    case \'OnDocFormPrerender\':
+        $gallery = $modx->getService(\'gallery\',\'Gallery\',$modx->getOption(\'gallery.core_path\',null,$modx->getOption(\'core_path\').\'components/gallery/\').\'model/gallery/\',$scriptProperties);
+        if (!($gallery instanceof Gallery)) return \'\';
+
+        /* assign gallery lang to JS */
+        $modx->controller->addLexiconTopic(\'gallery:tv\');
+
+        /* @var modAction $action */
+        $action = $modx->getObject(\'modAction\',array(
+            \'namespace\' => \'gallery\',
+            \'controller\' => \'index\',
+        ));
+        $modx->controller->addHtml(\'<script type="text/javascript">
+        Ext.onReady(function() {
+            GAL.config = {};
+            GAL.config.connector_url = "\'.$gallery->config[\'connectorUrl\'].\'";
+            GAL.action = "\'.($action ? $action->get(\'id\') : 0).\'";
+        });
+        </script>\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/tv/Spotlight.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/gallery.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/widgets/album/album.items.view.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/widgets/album/album.tree.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/tv/gal.browser.js\');
+        $modx->controller->addJavascript($gallery->config[\'assetsUrl\'].\'js/mgr/tv/galtv.js\');
+        $modx->controller->addCss($gallery->config[\'cssUrl\'].\'mgr.css\');
         break;
 }
 return;',

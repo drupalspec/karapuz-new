@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2017-02-04 14:26:15
+<?php /* Smarty version 3.1.27, created on 2017-02-15 06:25:44
          compiled from "/mamp/karapuz-new/manager/templates/default/header.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:2162532395895c867119941_47846322%%*/
+/*%%SmartyHeaderCode:676722258a3d848470234_43795920%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '591014532abc3679ff882aedc27639f16b1184bc' => 
     array (
       0 => '/mamp/karapuz-new/manager/templates/default/header.tpl',
-      1 => 1483440292,
+      1 => 1487132512,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2162532395895c867119941_47846322',
+  'nocache_hash' => '676722258a3d848470234_43795920',
   'variables' => 
   array (
     '_config' => 0,
@@ -32,13 +32,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5895c8672f9872_12299544',
+  'unifunc' => 'content_58a3d8486614d0_84184644',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5895c8672f9872_12299544')) {
-function content_5895c8672f9872_12299544 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_58a3d8486614d0_84184644')) {
+function content_58a3d8486614d0_84184644 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '2162532395895c867119941_47846322';
+$_smarty_tpl->properties['nocache_hash'] = '676722258a3d848470234_43795920';
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="<?php echo $_smarty_tpl->tpl_vars['_config']->value['manager_direction'];?>

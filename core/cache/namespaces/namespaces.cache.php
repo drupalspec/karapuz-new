@@ -23,6 +23,12 @@
     'path' => '/mamp/karapuz-new/core/components/formit/',
     'assets_path' => '/mamp/karapuz-new/assets/components/formit/',
   ),
+  'gallery' => 
+  array (
+    'name' => 'gallery',
+    'path' => '/mamp/karapuz-new/core/components/gallery/',
+    'assets_path' => '/Users/theboxer/www/modx/pkgs/gallery/assets/components/gallery/',
+  ),
   'minifyx' => 
   array (
     'name' => 'minifyx',
