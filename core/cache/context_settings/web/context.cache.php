@@ -4,6 +4,8 @@
   ),
   'aliasMap' => 
   array (
+    'news/' => 217,
+    'story/' => 214,
     'index/' => 1,
     'oplata/' => 205,
     'dostavka/' => 207,
@@ -14,6 +16,7 @@
     'kak-zakazat/' => 208,
     'akczii/' => 209,
     'kontaktyi/' => 210,
+    'seo-bloki/' => 220,
     'index/detskie-igrushki/' => 4,
     'index/detskie-mashinki/' => 16,
     'index/geroi-multfilmov/' => 25,
@@ -169,21 +172,29 @@
     'index/pazlyi-dlya-detej/kopiya-katalka-motoczikl-polese-«motorbajk»-(zheltaya)/' => 199,
     'index/pazlyi-dlya-detej/kopiya-avto-trejler-volvo-i-traktor-pogruzchik-(polese)/' => 201,
     'index/pazlyi-dlya-detej/kopiya-avtobus-dvuxetazhnyij-ekskursii-po-moskve-bolshoj-(23-sm.)/' => 202,
+    'story/maslenichnyie-gulyaniya/' => 215,
+    'story/maslenicza-—-nachalo-maslenichnoj-nedeli/' => 216,
+    'news/pasxa.-istoriya-prazdnika/' => 218,
+    'news/pasxalnyie-primetyi-i-tradiczii/' => 219,
+    'seo-bloki/seo-tekst-glavnaya/' => 221,
   ),
   'resourceMap' => 
   array (
     0 => 
     array (
-      0 => 1,
-      1 => 205,
-      2 => 207,
-      3 => 206,
-      4 => 2,
-      5 => 3,
-      6 => 7,
-      7 => 208,
-      8 => 209,
-      9 => 210,
+      0 => 217,
+      1 => 214,
+      2 => 1,
+      3 => 205,
+      4 => 207,
+      5 => 206,
+      6 => 2,
+      7 => 3,
+      8 => 7,
+      9 => 208,
+      10 => 209,
+      11 => 210,
+      12 => 220,
     ),
     1 => 
     array (
@@ -408,6 +419,20 @@
       3 => 199,
       4 => 201,
       5 => 202,
+    ),
+    214 => 
+    array (
+      0 => 215,
+      1 => 216,
+    ),
+    217 => 
+    array (
+      0 => 218,
+      1 => 219,
+    ),
+    220 => 
+    array (
+      0 => 221,
     ),
   ),
   'webLinkMap' => 

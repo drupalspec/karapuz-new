@@ -1,2 +1,2 @@
 <?php
-return 'modx-resource-hidemenu';
+return 'modx-resource-pagetitle';
