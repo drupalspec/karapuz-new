@@ -9,6 +9,15 @@ body {
     font-weight: normal;
 }
 
+.h3, h3, h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    color: #1a93c0;
+}
+
 .navbar-default {
     background: none;
     border: 0;
@@ -293,33 +302,118 @@ footer p {
     margin: 0;
 }
 
+.well.msearch2 {
+    padding: 0;
+    border: 0;
+    background: none;
+}
 
+.well.msearch2 .form-control  {
+    font-size: 14px;
+}
 
+.well.msearch2 .btn {
+    border-radius: 27px;
+    padding: 13px 44px;
+    font-size: 14px;
+}
 
+#mse2_results .ms2_product .product-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a93c0;
+    text-transform: uppercase;
+}
 
+#mse2_results .ms2_product .price {
+    margin-left: 0;
+    padding-left: 0;
+    color: #73c041;
+    font-size: 24px;
+    font-weight: 500;
+}
 
+.btn-danger {
+    background: #f14824;
+}
 
+.btn-danger:hover {
+    background: #e7210d;
+}
 
+#mse2_results .ms2_product .btn {
+    font-size: 16px;
+    font-weight: 300;
+    border: 0;
+    padding: 6px 27px;
+    border-radius: 23px;
+}
 
+.left-sidebar .panel .panel-heading,
+.panels-sets .panel .panel-heading {
+    background: none;
+    border-bottom: 0;
+    padding: 15px 10px;
+}
 
+.left-sidebar .panel .panel-heading h4,
+.panels-sets .panel .panel-heading h4 {
+    margin: 0;
+}
 
+.left-sidebar .panel-body,
+.panels-sets .panel-body {
+    padding: 0 15px 15px;
+}
 
+.panels-sets a {
+    text-decoration: underline;
+    color: #73c041;
+    font-weight: 600;
+}
 
+.panels-sets .panel-body {
+    color: #757575;
+}
 
+.panels-sets .panel-body .text-muted  {
+    font-size: 12px;
+    color: #8c8c8c;
+}
 
+.ui-widget-header {
+    background: #73c041 !important;
+}
 
+.ui-slider-horizontal {
+    height: 1.2em !important;
+}
 
+.ui-slider .ui-slider-handle {
+    width: 1.7em !important;
+    height: 1.7em !important;
+}
 
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.4em !important;
+}
 
+.btn-success {
+    background: #73c041;
+}
 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background: #e7210d;
+    border-color: #e7210d;
+}
 
-
-
-
-
-
-
-
+.btn.btn-block.btn-success {
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 
 
